@@ -34,7 +34,7 @@ async def admin_panel(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # Botni yurgizish
 if __name__ == '__main__':
     init_db()
-    application = Application.builder().token("SIZNING_BOT_TOKENINGIZ").build()
+    application = Application.builder().token("8851319229:AAETKwNyvteBWO56HRx3PqeXsC0iIkpZW4A").build()
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("admin", admin_panel))
     application.run_polling()
