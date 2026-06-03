@@ -1,3 +1,2 @@
 python-telegram-bot
-aiogram
-sqlite3
+supabase
