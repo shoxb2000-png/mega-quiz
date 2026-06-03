@@ -2,7 +2,7 @@ import sqlite3
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
 
-ADMIN_ID = 8177774841
+ADMIN_ID = 8149451732
 DB_NAME = "bot_data.db"
 
 # Baza bilan ishlash
